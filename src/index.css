@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-charcoal: #1A1A1A;
+  --color-charcoal-surface: #222222;
+  --color-charcoal-muted: #2A2A2A;
+  --color-ivory: #FAF7F1;
+  --color-gold-dark: #A87B34;
+  --color-gold-light: #E3C27A;
+}
+
+@layer base {
+  * {
+    border-color: rgba(227, 194, 122, 0.15);
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: var(--font-sans);
+    background-color: #1A1A1A;
+    color: #FAF7F1;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+  
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+}
+
+/* Custom Luxury Gold and Ambient Utilities */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #A87B34 0%, #F5DE9C 50%, #E3C27A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #A87B34 0%, #E3C27A 100%);
+}
+
+.bg-gold-gradient-hover:hover {
+  background: linear-gradient(135deg, #B88B44 0%, #EED28A 100%);
+}
+
+.border-gold-glow {
+  border: 1px solid rgba(227, 194, 122, 0.25);
+  box-shadow: 0 0 15px -3px rgba(168, 123, 52, 0.15);
+}
+
+.border-gold-subtle {
+  border: 1px solid rgba(227, 194, 122, 0.18);
+}
+
+/* Fluid responsive typography helpers - strictly bounded for 320px+ */
+.text-fluid-hero {
+  font-size: clamp(1.75rem, 5vw, 3.85rem);
+  line-height: 1.18;
+}
+
+.text-fluid-h2 {
+  font-size: clamp(1.5rem, 3.8vw, 2.75rem);
+  line-height: 1.22;
+}
+
+.text-fluid-h3 {
+  font-size: clamp(1.2rem, 2.4vw, 1.75rem);
+  line-height: 1.3;
+}

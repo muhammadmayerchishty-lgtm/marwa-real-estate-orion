@@ -1,0 +1,69 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0" y1="0" x2="800" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141414" />
+      <stop offset="60%" stop-color="#1A1A1A" />
+      <stop offset="100%" stop-color="#25211B" />
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A87B34" />
+      <stop offset="45%" stop-color="#F5DF9E" />
+      <stop offset="100%" stop-color="#E3C27A" />
+    </linearGradient>
+    <linearGradient id="towerGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FAF7F1" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#E3C27A" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FAF7F1" stop-opacity="0.05" />
+    </linearGradient>
+    <pattern id="gridPattern2" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E3C27A" stroke-opacity="0.06" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="480" fill="url(#bgGrad2)" />
+  <rect width="800" height="480" fill="url(#gridPattern2)" />
+
+  <!-- Background Ambience -->
+  <circle cx="420" cy="190" r="240" fill="#E3C27A" fill-opacity="0.09" filter="blur(60px)" />
+
+  <!-- Marwa Tower One Vertical Architecture -->
+  <!-- Main Tower Body -->
+  <rect x="330" y="70" width="160" height="360" rx="3" fill="#1C1C1C" stroke="url(#goldGrad2)" stroke-width="2" />
+  
+  <!-- Facade Glass Columns -->
+  <line x1="365" y1="70" x2="365" y2="430" stroke="#E3C27A" stroke-opacity="0.3" stroke-width="1.2" />
+  <line x1="410" y1="70" x2="410" y2="430" stroke="url(#goldGrad2)" stroke-opacity="0.5" stroke-width="2" />
+  <line x1="455" y1="70" x2="455" y2="430" stroke="#E3C27A" stroke-opacity="0.3" stroke-width="1.2" />
+
+  <!-- Floor Plates (Levels) -->
+  <g stroke="#E3C27A" stroke-opacity="0.2" stroke-width="1">
+    <line x1="330" y1="100" x2="490" y2="100" />
+    <line x1="330" y1="130" x2="490" y2="130" />
+    <line x1="330" y1="160" x2="490" y2="160" />
+    <line x1="330" y1="190" x2="490" y2="190" />
+    <line x1="330" y1="220" x2="490" y2="220" />
+    <line x1="330" y1="250" x2="490" y2="250" />
+    <line x1="330" y1="280" x2="490" y2="280" />
+    <line x1="330" y1="310" x2="490" y2="310" />
+    <line x1="330" y1="340" x2="490" y2="340" />
+    <line x1="330" y1="370" x2="490" y2="370" />
+  </g>
+
+  <!-- Stepped Penthouse Crown -->
+  <polygon points="330,70 360,35 460,35 490,70" fill="#26221C" stroke="url(#goldGrad2)" stroke-width="1.8" />
+  <line x1="410" y1="10" x2="410" y2="35" stroke="url(#goldGrad2)" stroke-width="3" />
+  <circle cx="410" cy="10" r="3" fill="#F5DF9E" />
+
+  <!-- Flanking Podium Wings -->
+  <rect x="220" y="270" width="110" height="160" rx="3" fill="#202020" stroke="url(#goldGrad2)" stroke-width="1.5" />
+  <rect x="490" y="270" width="110" height="160" rx="3" fill="#202020" stroke="url(#goldGrad2)" stroke-width="1.5" />
+  
+  <!-- Retail Canopy & Podium Glass -->
+  <rect x="200" y="380" width="420" height="50" rx="2" fill="url(#towerGlass)" stroke="url(#goldGrad2)" stroke-width="1.5" />
+  <text x="410" y="412" text-anchor="middle" fill="#E3C27A" font-family="sans-serif" font-size="11" letter-spacing="4">RETAIL &amp; CORPORATE PODIUM</text>
+
+  <!-- Labels -->
+  <text x="60" y="80" fill="#E3C27A" font-family="sans-serif" font-size="13" letter-spacing="3" opacity="0.8">JAIL ROAD · LAHORE COMMERCIAL HUB</text>
+  <text x="60" y="105" fill="#FAF7F1" font-family="serif" font-size="28" font-weight="bold">Marwa Tower One</text>
+  <text x="60" y="130" fill="#E3C27A" font-family="sans-serif" font-size="12" opacity="0.6">G+14 EXECUTIVE SUITES · LUXURY RETAIL · HIGH-SPEED LIFTS</text>
+</svg>

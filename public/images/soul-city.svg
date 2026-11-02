@@ -1,0 +1,66 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="800" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141414" />
+      <stop offset="50%" stop-color="#1A1A1A" />
+      <stop offset="100%" stop-color="#231F1A" />
+    </linearGradient>
+    <linearGradient id="goldGrad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A87B34" />
+      <stop offset="50%" stop-color="#F3DE9C" />
+      <stop offset="100%" stop-color="#E3C27A" />
+    </linearGradient>
+    <linearGradient id="goldSubtle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A87B34" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#E3C27A" stop-opacity="0.05" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#E3C27A" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E3C27A" stroke-opacity="0.07" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" fill="url(#bgGrad)" />
+  <rect width="800" height="480" fill="url(#grid)" />
+  <circle cx="400" cy="180" r="280" fill="url(#sunGlow)" />
+
+  <!-- Landscape & Horizon Line -->
+  <line x1="40" y1="360" x2="760" y2="360" stroke="#A87B34" stroke-opacity="0.3" stroke-width="1.5" />
+  <line x1="80" y1="380" x2="720" y2="380" stroke="#E3C27A" stroke-opacity="0.2" stroke-width="1" />
+
+  <!-- Master Planned Plots / Boulevard Perspective -->
+  <polygon points="400,260 220,440 280,440 400,290" fill="url(#goldSubtle)" stroke="#A87B34" stroke-opacity="0.4" />
+  <polygon points="400,260 580,440 520,440 400,290" fill="url(#goldSubtle)" stroke="#A87B34" stroke-opacity="0.4" />
+  <line x1="400" y1="260" x2="400" y2="440" stroke="#E3C27A" stroke-dasharray="8 6" stroke-width="2" stroke-opacity="0.6" />
+
+  <!-- Modern Architectural Villas & Commercial Buildings Silhouette -->
+  <!-- Villa Left -->
+  <rect x="140" y="270" width="100" height="90" fill="#202020" stroke="url(#goldGrad1)" stroke-width="1.5" rx="4" />
+  <polygon points="135,270 190,225 245,270" fill="#2A241C" stroke="url(#goldGrad1)" stroke-width="1.5" />
+  <rect x="160" y="295" width="25" height="35" fill="#FAF7F1" fill-opacity="0.12" stroke="#E3C27A" stroke-width="1" />
+  <rect x="195" y="295" width="25" height="35" fill="#FAF7F1" fill-opacity="0.12" stroke="#E3C27A" stroke-width="1" />
+
+  <!-- Center Master Hub -->
+  <rect x="330" y="170" width="140" height="190" fill="#222120" stroke="url(#goldGrad1)" stroke-width="2" rx="6" />
+  <path d="M 330 200 L 470 200 M 330 230 L 470 230 M 330 260 L 470 260 M 330 290 L 470 290 M 330 320 L 470 320" stroke="#E3C27A" stroke-opacity="0.3" stroke-width="1" />
+  <rect x="350" y="190" width="100" height="170" fill="none" stroke="#A87B34" stroke-opacity="0.5" stroke-dasharray="4 4" />
+  
+  <!-- Architectural Spire -->
+  <line x1="400" y1="120" x2="400" y2="170" stroke="url(#goldGrad1)" stroke-width="2.5" />
+  <circle cx="400" cy="120" r="4" fill="#E3C27A" />
+
+  <!-- Villa Right -->
+  <rect x="560" y="270" width="110" height="90" fill="#202020" stroke="url(#goldGrad1)" stroke-width="1.5" rx="4" />
+  <polygon points="555,270 615,225 675,270" fill="#2A241C" stroke="url(#goldGrad1)" stroke-width="1.5" />
+  <rect x="580" y="295" width="25" height="35" fill="#FAF7F1" fill-opacity="0.12" stroke="#E3C27A" stroke-width="1" />
+  <rect x="625" y="295" width="25" height="35" fill="#FAF7F1" fill-opacity="0.12" stroke="#E3C27A" stroke-width="1" />
+
+  <!-- Decorative Blueprint Elements -->
+  <text x="60" y="80" fill="#E3C27A" font-family="sans-serif" font-size="13" letter-spacing="3" opacity="0.8">SECTOR C 31 CCA · MASTER EXPANSION</text>
+  <text x="60" y="105" fill="#FAF7F1" font-family="serif" font-size="28" font-weight="bold">Soul City Lahore</text>
+  <text x="60" y="130" fill="#E3C27A" font-family="sans-serif" font-size="12" opacity="0.6">150 FT BOULEVARD · UNDERGROUND ELECTRIFICATION · GATED</text>
+</svg>
